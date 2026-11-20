@@ -1,0 +1,19 @@
+name = "kenxit-store"
+main = "src/worker.js"
+compatibility_date = "2025-01-01"
+
+[assets]
+directory = "./public"
+not_found_handling = "single-page-application"
+run_worker_first = ["/api/*", "/img/*"]
+
+[[d1_databases]]
+binding = "DB"
+database_name = "kenxit-db"
+database_id = "ISI_DATABASE_ID"
+migrations_dir = "migrations"
+
+# R2 (opsional, butuh billing). Hapus tanda # di 3 baris ini jika bucket sudah dibuat:
+# [[r2_buckets]]
+# binding = "R2"
+# bucket_name = "kenxit-images"

@@ -1,0 +1,1 @@
+{"name":"kenxit-store","private":true,"scripts":{"dev":"wrangler dev","deploy":"wrangler deploy","migrate:local":"wrangler d1 migrations apply kenxit-db --local","migrate":"wrangler d1 migrations apply kenxit-db --remote"},"devDependencies":{"wrangler":"^4"}}
