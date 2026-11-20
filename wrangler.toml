@@ -10,7 +10,7 @@ run_worker_first = ["/api/*", "/img/*"]
 [[d1_databases]]
 binding = "DB"
 database_name = "kenxit-db"
-database_id = "ISI_DATABASE_ID"
+database_id = "983ccf11-1983-47f5-87ac-e61c1f91d553"
 migrations_dir = "migrations"
 
 # R2 (opsional, butuh billing). Hapus tanda # di 3 baris ini jika bucket sudah dibuat:
